@@ -23,3 +23,19 @@ adimg.forEach(element=>{
     document.getElementById('slider').append(ad)
 })
 
+let hiddendisplay1=document.getElementById("amarjwel");
+hiddendisplay1.addEventListener('mouseover',()=>{
+    amardisplay()
+});
+let hiddendisplay2=document.getElementById("amargold");
+hiddendisplay2.addEventListener('mouseover',()=>{
+    amardisplay()
+});
+let hiddendisplay3=document.getElementById("amardiamond");
+hiddendisplay3.addEventListener('mouseover',()=>{
+    amardisplay()
+});
+
+function amardisplay(){
+    document.getElementById('amarplan').style.display="flex"
+}
