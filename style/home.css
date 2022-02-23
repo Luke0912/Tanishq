@@ -82,3 +82,73 @@
 #amartit{
     margin-left: 180px;
 }
+.amartit{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    margin-left: 43%;
+}
+#amaroff{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+    font-size: 40px;
+}
+#amatype{
+    display: flex;
+    margin-left:230px ;
+    font-family: sans-serif;
+
+}
+#amatype>div{
+    margin-left: 30px;
+    background-color: rgb(176,161,110);
+    border-radius: 5%;
+    color: aliceblue;
+    height: 15px;
+    margin-bottom: 15px;
+    width: 100px;
+    padding: 15px 23px 15px 23px;
+    font-weight: bold;
+}
+#amarear{
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+#amaear{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 30px;
+    grid-gap: 20px;
+    margin-left: 10px;
+}
+#amaear>div>img{
+    height: 202px;
+}
+#amaear>div{
+    margin-bottom: 10px;
+}
+#amartop{
+    display: flex;
+    margin-left: 100px;
+}
+#amartop>div>img{
+    height: 202px;
+    width: 100%;
+}
+#amartop>div{
+    height: 202px;
+    margin-left: 20px;
+    width: 300px;
+    
+}
+#amartopprod:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#amach{
+    margin-left: 30px;
+}
+#amarvideo{
+    width: 100%;
+    margin-top: 80px;
+}
