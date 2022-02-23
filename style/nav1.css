@@ -25,11 +25,14 @@
     justify-content: space-between;
     margin-left: 100px;
     margin-top: 10px;
-    margin-left: 200px;
+    margin-left: 100px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
     font-weight: bold;
     color: rgb(92,92,92);
+}
+#amarmenu>div{
+    margin-right: 10px;
 }
 
 #amarin{
@@ -63,8 +66,9 @@
     
 }
 #amarlogo{
-    margin-left: 100px;
+    margin-left: 60px;
     height: 70px;
     margin-top: 10px;
 }
+
 
