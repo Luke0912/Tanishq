@@ -1,16 +1,16 @@
 *{
     margin: 0px;
     padding: 0px;
-}
-#amaricon {
+  }
+  #amaricon {
     height: 30px;
     width: 100%;
     display: inline-flex;
     height: 40px;
-}
-#amarlogindiv {
+  }
+  #amarlogindiv {
     width: 100%;
-    height: 100px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
@@ -18,8 +18,8 @@
     position: sticky;
     top: 0px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
-}
-#amarmenu {
+  }
+  #amarmenu {
     display: flex;
     width: 800px;
     justify-content: space-between;
@@ -30,12 +30,12 @@
     font-size: 15px;
     font-weight: bold;
     color: rgb(92,92,92);
-}
-#amarmenu>div{
+  }
+  #amarmenu>div{
     margin-right: 10px;
-}
-
-#amarin{
+  }
+  
+  #amarin{
     display: flex;
     width: 500px;
     margin-left: 100px;
@@ -45,30 +45,110 @@
     font-weight: bold;
     color: rgb(92,92,92);
     margin-top: 10px;
-}
-#amaroption{
+  }
+  #amaroption{
     display: flex;
     justify-content: space-around;
     width: 1000px;
     margin-right: 140px;
     margin-top: 40px;
     
-
-}
-#amaroption>div:hover{
-    border-bottom: 5px solid rgb(29,29,29);
-}
-#amaroption>div{
+  
+  }
+  #amaroption>div{
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
     font-weight: bold;
     color: rgb(92,92,92);
     
-}
-#amarlogo{
+  }
+  #amarlogo{
     margin-left: 60px;
-    height: 70px;
+    height: 60px;
     margin-top: 10px;
-}
+  }
+  
+  #amarmewokid{
+    height: 400px;
+    width: 1400px;
+    margin-left: -300px;
+    margin-top: 40px;
+    display: none;
+    background-color: white;
+  
+  }
+  #amarjwel:hover #menu{
+    display: block;
+  }
+  #amarjwel:hover #jwel{
+    border-bottom: 2px solid black;
+  }
+  
+  #amarjwel{
+    position: absolute;
+    left:280px;
+    width: 130px;
+  }
+  #amargold{
+    position: absolute;
+    left: 430px;
+  }
+  #amardiamond{
+    position: absolute;
+    left: 500px;
+  }
+  #amaring{
+    position: absolute;
+    left: 600px;
+  }
+  
+  #amardigring{
+    position: absolute;
+    left: 780px;
+  }
+  #amarcoll{
+    position: absolute;
+    left: 910px;
+  }
+  #amarivah{
+    position: absolute;
+    left: 1040px;
+  }
+  #amarmia{
+    position: absolute;
+    left: 1120px;
+  }
+  
+  #amajwel{
+    position: absolute;
+    height: 40px;
+  }
+  #amarjwel:hover #amajwel{ 
+    border-bottom: 2px solid black;
+  }
+  
+  #amarjwel:hover #amarmewokid{
+    display: block;
+  
+  }
+  
+  #amarmewolist{
+    display: flex;
+    justify-content: space-around;
+  }
+  #amarmewolist>div{
+    width: 300px;
+    height: 200px;
+    margin: 80px 20px 0px 50px;
+  
+  }
+  #amargender>P{
+    margin-bottom: 20px;
+    color: black;
+  
+  }
+  
+  
+  
 
 
