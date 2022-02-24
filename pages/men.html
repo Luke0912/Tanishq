@@ -1,63 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../style/women.css">
+    <link rel="stylesheet" href="../style/women.css" />
     <!-- <link rel="stylesheet" href="../style/nav1.css"> -->
-</head>
-<body>
+  </head>
+  <body>
     <div id="top">
-<div id="sorting">
-        
-       
-         <select id="priceSort" onchange="handlePriceSort()">
-            <option value="">Sort By : Recommended</option>
-            <option value="high">High to low</option>
-            <option value="low">Low to high</option>
-          </select>
-        </div>  
+      <div id="sorting">
+        <select id="priceSort" onchange="handlePriceSort()">
+          <option value="">Sort By : Recommended</option>
+          <option value="high">High to low</option>
+          <option value="low">Low to high</option>
+        </select>
+      </div>
     </div>
-    <hr id = "tophr">
+    <hr id="tophr" />
     <div id="bottom">
-        <div id="left">
+      <div id="left">
+        <p>Home / Jewellery / Men Jewellery</p>
+        <hr />
+        <h3>CATEGORY</h3>
+        <h2>MEN</h2>
+        <br />
+        <h3>FILTERS</h3>
 
-            <p>Home / Jewellery / Men Jewellery</p>
-            <hr>
-            <h3>CATEGORY</h3>
-            <h2>MEN</h2>
-            <br>
-            <h3 >FILTERS</h3>
-
-            <div id="f1">
-                <input type="checkbox" class="categoryG" value="Gold" onclick="categoryg()">Gold</input>
-            </div>
-            <br><br>
-            <div id="f2">
-                <input type="checkbox" class="categoryD" value="Diamond" onclick="categoryd()">Diamond</input>
-            </div>
-            <br><br>
-            <div id="f3">
-                <input type="checkbox" class="categoryW" value="White Gold" onclick="categoryw()">Whitegold</input>
-            </div>
-            
-              
-          
+        <div id="f1">
+          <input
+            type="checkbox"
+            class="categoryG"
+            value="Gold"
+            onclick="categoryg()"
+          />Gold
         </div>
-        <div id="right">
-            <div id="adban">
-                <img src="https://www.tanishq.co.in/wps/wcm/connect/tanishq/357b3522-b062-4556-8529-b428b2cb7f16/desktop/E-spot+%28Small%29+1000+x+200px.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80O0RT10QIMVSTFU3006-357b3522-b062-4556-8529-b428b2cb7f16-desktop-nTBFcD-" alt="">
-            </div>
-            <div id="containermen">
-
-            </div>
+        <br /><br />
+        <div id="f2">
+          <input
+            type="checkbox"
+            class="categoryD"
+            value="Diamond"
+            onclick="categoryd()"
+          />Diamond
         </div>
-
-
+        <br /><br />
+        <div id="f3">
+          <input
+            type="checkbox"
+            class="categoryW"
+            value="White Gold"
+            onclick="categoryw()"
+          />Whitegold
+        </div>
+      </div>
+      <div id="right">
+        <div id="adban">
+          <img
+            src="https://www.tanishq.co.in/wps/wcm/connect/tanishq/357b3522-b062-4556-8529-b428b2cb7f16/desktop/E-spot+%28Small%29+1000+x+200px.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80O0RT10QIMVSTFU3006-357b3522-b062-4556-8529-b428b2cb7f16-desktop-nTBFcD-"
+            alt=""
+          />
+        </div>
+        <div id="containermen"></div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
-<script src="../script/men.js" type="module"></script>
-<script src="../data/mens.js"></script>
+<script  src="script/men.js" type="module"></script>
+<script src="data/mens.js"></script>

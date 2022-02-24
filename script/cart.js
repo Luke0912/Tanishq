@@ -2,7 +2,7 @@ let cartData = JSON.parse(localStorage.getItem("cartItms"));
 
 let mdiv = document.getElementById("cart-mid");
 
-cartDisplay(cartData,mdiv);
+cartDisplay(cartData, mdiv);
 
 function cartDisplay(data, target) {
   data.map((e) => {
@@ -62,18 +62,9 @@ function cartDisplay(data, target) {
     </div>
         
           
-</div>
-   
-        
-        
-        
-        
-        
-        
-        `
-        // console.log(e);
+</div>`;
+    // console.log(e);
     itmQty();
-    
   });
 }
 
@@ -82,7 +73,3 @@ function itmQty() {
 
   qty.innerHTML = `CART: ${cartData.length} ITEM(s)`;
 }
-
-
-
-

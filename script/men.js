@@ -1,5 +1,5 @@
-// import navbar from "/script/nav.js"
-// let nav=document.getElementById('hamcont');
+// import navbar from "../script/nav.js" 
+// var nav=document.getElementById('hamcont');
 // nav.innerHTML=navbar();
 
 var mensData = JSON.parse(localStorage.getItem("mensData"));
