@@ -1,4 +1,5 @@
 import navbar from "/script/nav.js";
+import {footer,amarshowplace} from '../script/footer.js'
 
 let nav=document.getElementById('amarcont');
 nav.innerHTML=navbar();
@@ -25,3 +26,6 @@ setInterval(()=>{
     ad.src=adimg[i].img
     i+=1
 },1000)
+
+var showfooter=document.getElementById('footer');
+showfooter.innerHTML=footer()
