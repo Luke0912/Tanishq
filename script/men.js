@@ -1,6 +1,4 @@
-// import navbar from "../script/nav.js" 
-// var nav=document.getElementById('hamcont');
-// nav.innerHTML=navbar();
+
 
 var mensData = JSON.parse(localStorage.getItem("mensData"));
 console.log(mensData);
@@ -31,6 +29,7 @@ function handlePriceSort() {
   displayData(mensData);
 }
 
+
 // displayData(mensData)
 
 function categoryg() {
@@ -42,6 +41,7 @@ function categoryg() {
   displayData(categoryname);
 }
 
+
 function categoryd() {
   var selectcategory = document.querySelector(".categoryD").value;
   console.log(selectcategory);
@@ -51,6 +51,7 @@ function categoryd() {
   displayData(categoryname);
 }
 
+
 function categoryw() {
   var selectcategory = document.querySelector(".categoryW").value;
   console.log(selectcategory);
@@ -59,6 +60,7 @@ function categoryw() {
   });
   displayData(categoryname);
 }
+
 
 function displayData(mensData) {
   document.querySelector("#containermen").innerHTML = "";
@@ -109,8 +111,6 @@ function displayData(mensData) {
     document.querySelector("#containermen").append(div);
   });
 }
-
-
 
 
 // function addtocart(data) {
