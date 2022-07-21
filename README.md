@@ -9,7 +9,7 @@
 
 
 ## deployment Link:-
-https://heuristic-minsky-e408f0.netlify.app/
+https://tanishq-clone.netlify.app/
 
  ## Contributers :- 
 - #### [Shubham Dubey]
