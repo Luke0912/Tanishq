@@ -9,7 +9,6 @@
 
 
 ## deployment Link:-
-https://tanishq-clone.netlify.app/
 
  ## Contributers :- 
 - #### [Shubham Dubey]
